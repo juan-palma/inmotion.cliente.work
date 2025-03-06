@@ -1,0 +1,21 @@
+@media screen and (min-width: 1024px) {
+  /* Remove padding on card container */
+  .dls-accent-white-01-bg.pad-3-t.pad-2-b .container {
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* override for dls container on Hero */
+  .homePage_container .container {
+    max-width: 940px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* remove second button margin on mobile */
+	.container .hero .btn.hero-cta.btn-center.btn-white {
+		margin-left: 0;
+	}
+}

@@ -1,0 +1,176 @@
+.appbanner_show .appbanner{
+	display:block;
+}
+.appbanner_show .shiftRt .appbanner,
+.appbanner_show.fullHt .appbanner{
+	top:-69px;
+}
+.appbanner{
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+	border-bottom:1px solid #e8e8e8;
+	width:100%;
+	height:69px;
+	font-family:'Helvetica Medium', Arial, 'Lucida Grande', sans-serif;
+	background:#F2F3F3;
+	z-index:9998;
+	-webkit-font-smoothing:antialiased;
+	overflow:hidden;
+	-webkit-text-size-adjust:none;
+	font-size: 16px;
+}
+.appbanner__container{
+	margin:0 auto;
+}
+.appbanner__close {
+	background: url('/content/dam/amex/common/mobile-banner-icon.png') no-repeat -2px -21px;
+	position: absolute;
+	left: 7px;
+	top: 28px;
+	display: block;
+	width: 15px;
+	height: 15px;
+	border:none;
+}
+.appbanner__close:active,
+.appbanner__close:hover{
+	color:#aaa;
+}
+.appbanner__icon{
+	position:absolute;
+	left:22px;
+	top:6px;
+	display:block;
+	width:57px;
+	height:57px;
+	background-size:cover;
+	border-radius:15px;
+	margin-left: 5px;
+	box-shadow:0 1px 3px rgba(0,0,0,0.3);
+	background: url('/content/dam/amex/common/mobile-banner-icon.png') no-repeat -21px 0px;
+}
+
+.appbanner__info{
+	position:absolute;
+	left:95px;
+	top:10px;
+	width:45%;
+	line-height:1.0em;
+	font-weight:normal;
+	color:#6c6d6d;
+}
+.appbanner__title{
+	font-size:0.875em;
+	color:#252626;
+	line-height:18px;
+	font-weight:normal;
+}
+.appbanner__author,.appbanner__store{
+	font-size: 0.75em;
+}
+.appbanner-button{
+	position:absolute;
+	right:15px;
+	top:23px;
+	border: none;
+	padding:0 10px;
+	width:37px;
+	height:27px;
+	font-size:16px;
+	line-height:24px;
+	text-align:center;
+	font-weight:normal;
+	color:#0F73FC;
+	text-decoration:none;
+}
+.appbanner-button:active,
+.appbanner-button:hover{
+	color:#6a6a6a;
+}
+.appbanner_android{
+	background:#F2F2F2;
+	box-shadow:none;
+	font-family:'Roboto Medium',sans-serif;
+}
+.appbanner_android .appbanner__icon{
+	background-color:transparent;
+	box-shadow:none;
+	border-radius:10px;
+	left:24px;
+}
+.appbanner_android .appbanner-button{
+	font-size:14px;
+	min-width:12%;
+	border:2px solid #209BAF;
+	padding:1px;
+	color:#209BAF;
+	background:0;
+	border-radius:0;
+	box-shadow:none;
+	height:29px;
+	width:78px;
+	top: 20px;
+}
+.appbanner_android .appbanner-button:active,
+.appbanner_android .appbanner-button:hover{
+	background:0;
+}
+.appbanner_android .appbanner-button__text{
+	text-align:center;
+	display:block;
+	padding:0 10px;
+}
+.appbanner_ios{
+	background:#F2F2F2;
+	box-shadow:none;
+	font-family:'Roboto Medium',sans-serif;
+}
+.appbanner_ios .appbanner__icon{
+	background-color:transparent;
+	box-shadow:none;
+	border-radius:10px;
+	left:24px;
+}
+.appbanner_ios .appbanner-button{
+	font-size:14px;
+	min-width:12%;
+	border:2px solid #209BAF;
+	padding:1px;
+	color:#209BAF;
+	background:0;
+	border-radius:0;
+	box-shadow:none;
+	height:22px;
+	width:55px;
+	top: 20px;
+}
+.appbanner_ios .appbanner-button:active,
+.appbanner_ios .appbanner-button:hover{
+	background:0;
+}
+.appbanner_ios .appbanner-button__text{
+	text-align:center;
+	display:block;
+	padding:0 10px;
+}
+
+.res_Small.res_250 .appbanner__info,
+.res_Small.res_300 .appbanner__info
+{
+left: 92px;
+}
+.res_Small.res_250 .appbanner-button,
+.res_Small.res_300 .appbanner-button
+{right: 5px;}
+
+.res_Small.res_250 .appbanner__title {
+font-size: 0.75em;
+}
+.res_Small.res_300 .appbanner__author,.res_Small.res_300 .appbanner__store {
+font-size: 0.71em;
+}
+.res_Small.res_250 .appbanner__author,.res_Small.res_250 .appbanner__store {
+font-size: 0.71em;
+}

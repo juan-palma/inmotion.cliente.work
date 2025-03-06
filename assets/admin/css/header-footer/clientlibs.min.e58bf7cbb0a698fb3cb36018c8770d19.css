@@ -1,0 +1,70 @@
+.homePageHero .hero .legal-1 a{text-decoration:underline}
+div>.btn-center:first-child:not(:last-child),div>.btn-center:first-child{margin-left:0 !important}
+.card-img-bg.tablet,.card-img-bg.mobile,.card-img-bg.mobile-carousel,.card-img-bg.tablet-carousel{display:none}
+.card-img-bg.desktop,.card-img-bg.desktop-carousel,.card-img-bg.desktop-carouselXL{display:block}
+.card-component_container{max-width:100%;margin:0;padding-left:0 !important;padding-right:0 !important}
+.card-text{color:#333}
+.carousel-container .heroLogin{position:absolute;z-index:2;top:0;left:10%;height:auto}
+.carousel-container{position:relative}
+.no-cookie .carousel-content{margin-top:0}
+.cookie .carousel-content{margin-top:490px}
+.hero h2.hero-header,.carousel h2.hero-header{margin-bottom:30px}
+.alert.alert-dismissible{margin-bottom:0}
+#iconslot1 h2,#iconslot2 h2,#iconslot3 h2{margin-top:30px;margin-bottom:10px}
+.homePageHero .eliloLogin{margin-bottom:20px !important;margin-top:20px}
+.hero a.btn.hero-cta{min-width:180px}
+.hero div>.btn:first-of-type:not(:last-of-type):not(.btn-block){margin-right:15px}
+.hero .btn-center,.btn-center:first-child:not(:last-child):not(.btn-block){margin-bottom:10px}
+.btn-center:last-child:not(:first-child){margin-left:0}
+div>.btn-center:first-child:not(:last-child),div>.btn-center:first-child{margin-left:0 !important}
+#main{background-color:#ededed}
+.cookie,.no-cookie{display:none}
+.homepage-loaded{display:none}
+.homepage-loading{display:flex;height:200px}
+.progress-circle.progress-indeterminate{margin:0 auto}
+.no-cookie .container,.no-cookie .container .hero,.no-cookie .container .hero .row{height:100%}
+.hero{min-height:inherit}
+.tagline{width:100%;height:5.5em;background:no-repeat}
+@media only screen and (min-width:512px){.hero div>.btn:first-of-type:not(:last-of-type):not(.btn-block){margin-right:15px}
+}
+@media only screen and (min-width:768px){.hero a.btn.hero-cta{margin:0}
+}
+@media only screen and (min-width:1024px) and (max-width:1279px){.container.cards-container{padding:0}
+}
+@media only screen and (min-width:1025px){.appbanner{display:none}
+}
+@media only screen and (max-width:1023px){.card-img-bg.desktop,.card-img-bg.mobile,.card-img-bg.desktop-carousel,.card-img-bg.mobile-carousel{display:none}
+.card-img-bg.tablet,.card-img-bg.tablet-carousel{display:block}
+}
+@media only screen and (min-width:980px){.cookie .carousel-content,.no-cookie .carousel-content{margin-top:0;margin-left:350px}
+}
+@media only screen and (min-width:768px) and (max-width:979px){.cookie .carousel-content,.no-cookie .carousel-content{margin-top:0;margin-left:45%}
+.heroLogin{width:350px}
+.carousel:not(.carousel-small) .carousel-inner{min-height:510px}
+}
+@media only screen and (max-width:767px){.card-img-bg.tablet,.card-img-bg.desktop,.card-img-bg.desktop-carousel,.card-img-bg.tablet-carousel{display:none}
+.card-img-bg.mobile,.card-img-bg.mobile-carousel{display:block}
+.btn.hero-cta{max-width:100%;display:block;margin-bottom:10px;margin-right:0 !important;margin-left:0}
+.carousel-btn>a{width:100%;max-width:100% !important}
+.carousel-container .heroLogin{width:97%;margin:0 5px;left:0}
+.no-cookie .carousel-container .hero-header{padding-top:1.25rem}
+.no-cookie .carousel:not(.carousel-small) .carousel-inner{min-height:350px}
+}
+@media screen and (min-width:1024px){.dls-accent-white-01-bg.pad-3-t.pad-2-b .container{padding-left:0;padding-right:0}
+}
+@media screen and (min-width:768px) and (max-width:1279px){.homePage_container .container{max-width:940px}
+}
+@media screen and (max-width:767px){.container .hero .btn.hero-cta.btn-center.btn-white{margin-left:0}
+}
+h2.news-header.heading-5{width:100%}
+.master-view-item div.col-md-6.masterview-src.margin-b{position:relative;max-width:720px;max-height:260px;padding:0 !important;margin-right:10px !important}
+.master-view-item h2.heading-6{font-size:1.19rem;line-height:1.19rem}
+.master-view-item .btn{font-weight:200;max-width:8.7rem;min-width:5.5rem;padding:.465rem .990rem;font-size:.5rem;line-height:.73;border-radius:.12rem}
+.master-view-item .legal-1{font-size:.4125rem}
+.master-view-item div.text-align-center>p{font-size:.42rem}
+.master-view-item .card-img-bg{background-position:0 0}
+.master-view-item .row-label{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:.9375rem;font-weight:900;line-height:1.375rem}
+.master-view-item .dls-card-sm{width:3.575rem;height:2.25rem;border-radius:.12rem;font-size:.32em}
+.master-view-item .margin-t{margin-top:.62rem}
+.master-view-item .margin-r{margin-right:.62rem}
+.master-view-item .pad-t{padding-top:.62rem}
