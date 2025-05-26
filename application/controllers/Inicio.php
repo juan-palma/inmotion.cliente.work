@@ -87,7 +87,7 @@ class Inicio extends CI_Controller {
 		
 		$data['titulo'] = "Home";
 		$data['actual'] = "home";
-		$data['desc'] = "Descripción HOME INMOTION";
+		$data['desc'] = "Organizadores de eventos, marketing y branding, ofrecemos servicios de calidad para hacer de tu evento un éxito.";
 		
 		$this->load->view('public/head', $data);
 		$this->load->view('public/home', $data);

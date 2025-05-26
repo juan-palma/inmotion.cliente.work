@@ -11,7 +11,8 @@ class Login extends CI_Controller {
 	public $error = [];
 	
 	public function index(){
-		
+		//print_r($this->ida_protect->encrypt_decrypt('encrypt', 'libre'));
+
 		if ($this->form_validation->run() == FALSE)
 		{
 			isLogged();

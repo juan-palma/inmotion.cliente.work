@@ -34,6 +34,12 @@
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
 		
 		<link href="<?php echo(base_url('assets/public/css/main.css')) ?>" rel="stylesheet" type="text/css">
+
+		<meta property="og:title" content="<?php echo($titulo); ?> | INMOTION />
+		<meta property="og:description" content="<?php echo($desc); ?>" />
+		<meta property="og:image" content="https://inmotion.cliente.work/assets/public/img/facebook_web_img_article.jpg" />
+		<meta property="og:image:alt" content="Portada del sitio web principal" />
+		<meta property="og:image:type" content="image/jpeg" />
 				
 		
 		<!-- Meta Data de verificacion de sitios web. -->
