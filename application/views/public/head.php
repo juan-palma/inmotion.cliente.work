@@ -33,7 +33,7 @@
 	    <link href="<?php echo(base_url('assets/admin/css/light-bootstrap-dashboard.css?v=2.0.1')) ?>" rel="stylesheet" />
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
 		
-		<link href="<?php echo(base_url('assets/public/css/main.css')) ?>" rel="stylesheet" type="text/css">
+		<link href="<?php echo(base_url('assets/public/css/main.css?v=20261023')) ?>" rel="stylesheet" type="text/css">
 
 		<meta property="og:title" content="<?php echo($titulo); ?> | INMOTION" />
 		<meta property="og:description" content="<?php echo($desc); ?>" />

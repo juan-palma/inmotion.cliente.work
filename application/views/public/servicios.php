@@ -30,7 +30,7 @@
 			<video class="stopfade" controls="false" id="bgvid" loop>
 			    <source src="https://www.youtube.com/embed/nzenephoM84" type="video/mp4" />
 			</video>
-			<video class="stopfade" poster="<?php echo($serviciosDB->video->poster); ?>" id="bgvid" loop>
+			<video class="stopfade" poster="<?php echo(@$serviciosDB->video->poster); ?>" id="bgvid" loop>
 				<?php
 					if(isset($serviciosDB->video->webm)){
 					?>

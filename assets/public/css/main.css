@@ -2937,3 +2937,7 @@ footer #certificaciones,  footer #premios{
 
 
 
+
+/* 2026-10-23: boton del menu desplegable en naranja del sitio (antes blanco sobre blanco); el icono sigue blanco y el hover oscurece */
+#menu #btnMenu.colDin1-back{background-color:#ff6600 !important;}
+#menu #btnMenu i.colDin1-op{color:#fff !important;}

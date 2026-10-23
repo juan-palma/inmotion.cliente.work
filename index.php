@@ -38,7 +38,7 @@ $dotenv -> load();
 switch (ENVIRONMENT)
 {
 	case 'development':
-		error_reporting(-1);
+		error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);   // 2026-10-23: sin avisos de PHP 8.4 en pantalla
 		ini_set('display_errors', 1);
 	break;
 
